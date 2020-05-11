@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+
+
+  <!-- bootstrap CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>飲食的宗教戰爭</title>
+  <script src="foodWar.js"></script>
+  <link rel="stylesheet" type="text/css" href="FoodWar.css">
+</head>
+
+<body background="bg.jpg" style="background-size: 100%;">
+  <h1>飲食的宗教戰爭 Food War</h1>
+  <h3>填完答案後，將網址傳給朋友，看看你們適不適合
+
+    </h2>
+    <button class="btn btn-light" onclick="topic()" ; id="start"> START </button>
+
+    <!-- three option buttons -->
+    <div id=topicAndOption>
+      <h2 style="margin-top:100px;"> </h2>
+      <div class="container">
+        <div class="row justify-content-center">
+          <button class=" optBtn btn btn-light px-4 m-2" onclick="next(this.id)" style="display: none;" id="btn1">
+            選項</button>
+          <button class="optBtn btn btn-light px-4 m-2" onclick="next(this.id)" style="display: none;"
+            id="btn2">選項</button>
+          <button class="optBtn btn btn-light px-4 m-2" onclick="next(this.id)" style="display: none;"
+            id="btn3">選項</button>
+        </div>
+      </div>
+      <!-- url for copy -->
+      <div><input id="urlText" value="url" style="display: none;">
+        <button id="urlBtn" onclick="copyUrl()" style="display: none;">複製</button></div>
+    </div>
+
+
+
+</body>
+
+</html>

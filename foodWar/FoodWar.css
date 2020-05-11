@@ -1,0 +1,21 @@
+H1{
+  font-family: 'Noto Sans TC', sans-serif, font-weight: 700; font-size:70px ;
+}
+
+H2{
+  font-family: 'Noto Sans TC', sans-serif, font-weight: 400; font-size:40px;
+}
+
+.optBtn{
+  font-family: 'Noto Sans TC', sans-serif, font-weight: 400; font-size:30px;
+}
+
+#start{
+  margin-top: 100px;
+}
+
+body{
+  color: white;
+  text-align: center;
+  padding:20px;
+}
